@@ -8,11 +8,6 @@ const routes = [
         name: "login",
         component: Login,
     },
-    {
-        path: "/register",
-        name: "register",
-        component: Register,
-    },
 ];
 
 const router = createRouter({

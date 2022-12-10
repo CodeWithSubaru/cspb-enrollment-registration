@@ -10,9 +10,11 @@
 </head>
 
 <body class="antialiased">
-    @vite('resources/css/app.css')
 
-    <div id="app"></div>
+    @vite('resources/css/app.css')
+    <div id="app">
+        <Dashboard :users="{{ $users }}" />
+    </div>
 
     @vite('resources/js/index.js')
 </body>
